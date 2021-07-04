@@ -1,0 +1,543 @@
+CRITICAL - 2021-06-27 00:35:40 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:36:08 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-27 00:37:50 --> Unknown column 'select * from' in 'field list'
+CRITICAL - 2021-06-27 00:37:50 --> Unknown column 'select * from' in 'field list'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `select ...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `select ...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `select ...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `select ...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:37:53 --> Unknown column 'select * from' in 'field list'
+CRITICAL - 2021-06-27 00:37:53 --> Unknown column 'select * from' in 'field list'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `select ...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `select ...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `select ...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `select ...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 00:38:05 --> Undefined variable: builder
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 00:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:38:36 --> Undefined variable: builder
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-27 00:38:43 --> Unknown column 'select * from' in 'field list'
+CRITICAL - 2021-06-27 00:38:43 --> Unknown column 'select * from' in 'field list'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `select ...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `select ...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `select ...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `select ...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tarea
+FROM `tarea`' at line 1
+CRITICAL - 2021-06-27 00:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tarea
+FROM `tarea`' at line 1
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT SELECT *...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:47:48 --> Not unique table/alias: 'users'
+CRITICAL - 2021-06-27 00:47:48 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:48:03 --> Not unique table/alias: 'users'
+CRITICAL - 2021-06-27 00:48:03 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:49:22 --> Not unique table/alias: 'users'
+CRITICAL - 2021-06-27 00:49:22 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:49:35 --> Not unique table/alias: 'tarea'
+CRITICAL - 2021-06-27 00:49:35 --> Not unique table/alias: 'tarea'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:49:39 --> Not unique table/alias: 'tarea'
+CRITICAL - 2021-06-27 00:49:39 --> Not unique table/alias: 'tarea'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:49:47 --> Not unique table/alias: 'tarea'
+CRITICAL - 2021-06-27 00:49:47 --> Not unique table/alias: 'tarea'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:50:02 --> Not unique table/alias: 'tarea'
+CRITICAL - 2021-06-27 00:50:02 --> Not unique table/alias: 'tarea'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:50:11 --> Not unique table/alias: 'tarea'
+CRITICAL - 2021-06-27 00:50:11 --> Not unique table/alias: 'tarea'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:50:30 --> Table 'ci4.user' doesn't exist
+CRITICAL - 2021-06-27 00:50:30 --> Table 'ci4.user' doesn't exist
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:50:34 --> Table 'ci4.user' doesn't exist
+CRITICAL - 2021-06-27 00:50:34 --> Table 'ci4.user' doesn't exist
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:54:31 --> Unknown column 'deleted_al' in 'where clause'
+CRITICAL - 2021-06-27 00:54:31 --> Unknown column 'deleted_al' in 'where clause'
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(119): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 00:56:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:56:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:58:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::fom()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:58:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::fom()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 00:59:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::fom()
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-27 00:59:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `tarea`
+WHERE `id` > 10
+AND `deleted_at` IS NULL
+AND `id` > 10
+AND `de...' at line 1
+CRITICAL - 2021-06-27 00:59:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `tarea`
+WHERE `id` > 10
+AND `deleted_at` IS NULL
+AND `id` > 10
+AND `de...' at line 1
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(121): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-27 00:59:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `tarea`
+WHERE `id` > 10
+AND `deleted_at` IS NULL
+AND `id` > 10
+AND `de...' at line 1
+CRITICAL - 2021-06-27 00:59:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `tarea`
+WHERE `id` > 10
+AND `deleted_at` IS NULL
+AND `id` > 10
+AND `de...' at line 1
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->tareasTitulos()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:04:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->queryBuilder()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 01:26:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:27:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:28:14 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:29:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:29:36 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:30:04 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-27 01:30:33 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:30:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:31:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:32:17 --> Undefined variable: quey
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 01:32:24 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 01:33:00 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 01:33:14 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 01:33:37 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 01:34:01 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 01:34:55 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 01:35:34 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 01:35:52 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(108): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:38:14 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(110): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 01:38:37 --> Undefined variable: builder
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->queryBuilder()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 01:39:59 --> syntax error, unexpected 'area' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/queryBuild...')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/queryBuild...')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-27 02:04:07 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(76): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 02:39:52 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(76): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 02:40:21 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(76): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 02:41:03 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(110): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-27 05:39:14 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-27 05:39:28 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

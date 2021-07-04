@@ -1,0 +1,849 @@
+CRITICAL - 2021-06-26 00:41:06 --> Division by zero
+#0 C:\xampp\htdocs\ci4\app\Views\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 00:42:23 --> Division by zero
+#0 C:\xampp\htdocs\ci4\app\Views\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 00:51:46 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 01:05:01 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 01:05:13 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 01:11:11 --> Undefined variable: alert
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->operacionesMat()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 01:13:52 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 01:23:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->operacionesMat()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 01:47:17 --> syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 01:47:19 --> syntax error, unexpected '$json' (T_VARIABLE)
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 02:19:07 --> Undefined variable: json
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->operacionesMat()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-26 02:22:08 --> Column 'titulo' cannot be null
+CRITICAL - 2021-06-26 02:22:08 --> Column 'titulo' cannot be null
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Home.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-26 02:23:27 --> Column 'titulo' cannot be null
+CRITICAL - 2021-06-26 02:23:27 --> Column 'titulo' cannot be null
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Home.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-26 02:28:19 --> Table 'ci4.tara' doesn't exist
+CRITICAL - 2021-06-26 02:28:19 --> Table 'ci4.tara' doesn't exist
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-26 02:28:29 --> Table 'ci4.tara' doesn't exist
+CRITICAL - 2021-06-26 02:28:29 --> Table 'ci4.tara' doesn't exist
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-26 02:36:32 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:36:32 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:39:07 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:39:07 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:39:15 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:39:15 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:40:46 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:40:46 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:42:08 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:42:08 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:44:05 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:44:05 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:45:39 --> Error connecting to the database: pg_pconnect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:45:39 --> Unable to connect to the database.
+Main connection [postgre]: pg_pconnect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-26 02:47:31 --> Error connecting to the database: pg_pconnect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+CRITICAL - 2021-06-26 02:47:31 --> Unable to connect to the database.
+Main connection [postgre]: pg_pconnect(): Unable to connect to PostgreSQL server: received invalid response to SSL negotiation: Y
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ta...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Home.php(55): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-26 15:34:49 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\ci4\app\Views\head.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(68): view('head')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 15:35:22 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/getdata')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/getdata')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 15:35:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/getdata')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/getdata')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 15:35:26 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 15:38:58 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 15:40:15 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 15:40:35 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 15:59:21 --> Trying to get property 'titlulo' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 15:59:38 --> Undefined variable: id
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:19:54 --> Undefined variable: key
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:21:37 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:21:42 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:21:46 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:21:52 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:22:31 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:22:44 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/getdata')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/getdata')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 16:22:55 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:23:02 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:23:10 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:23:27 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 16:23:33 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:23:50 --> Trying to get property 'titulo' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:25:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:25:49 --> Undefined variable: id
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:26:02 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:26:09 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:26:32 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:26:56 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:26:59 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:27:02 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:27:10 --> Undefined variable: res
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:27:25 --> Undefined variable: res
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:27:38 --> Undefined variable: res
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:31:00 --> Undefined variable: res
+#0 C:\xampp\htdocs\ci4\app\Views\getData.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('getData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(72): view('getData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->getData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:32:37 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/getdata')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/getdata')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-26 17:21:10 --> Column 'titulo' cannot be null
+CRITICAL - 2021-06-26 17:21:10 --> Column 'titulo' cannot be null
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Home.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->insertData()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-26 17:22:40 --> Use of undefined constant result - assumed 'result' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->deleteData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 18:04:29 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->updateDAta()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 18:25:44 --> syntax error, unexpected '*'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 18:25:48 --> syntax error, unexpected '*'
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/updateData')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/updateData')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 20:12:46 --> Undefined variable: alert
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 20:24:08 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:28:37 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:28:50 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:31:45 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-26 20:32:05 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:32:10 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:36:37 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:37:05 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:37:47 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 20:38:04 --> Undefined variable: result
+#0 C:\xampp\htdocs\ci4\app\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 20:38:29 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\ci4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 20:39:43 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(112): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:51:41 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(111): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:51:53 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(111): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:52:41 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(111): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 20:52:48 --> Undefined variable: query
+#0 C:\xampp\htdocs\ci4\app\Views\findData.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1271): CodeIgniter\View\View->render('findData', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(111): view('findData')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Home->findData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,190 @@
+CRITICAL - 2021-06-29 04:37:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\app\Views\head.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\Common.php(1271): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(21): view('head', Array)
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-29 04:37:44 --> Undefined variable: title
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\app\Views\head.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\Common.php(1271): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(21): view('head', Array)
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-29 04:37:52 --> Undefined variable: title
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\app\Views\head.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\Common.php(1271): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(21): view('head', Array)
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-29 04:40:01 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:40:50 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:41:14 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:42:24 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:42:30 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:42:38 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:42:53 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:47:58 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:48:03 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:49:26 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:49:34 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:49:50 --> Class 'CodeIgniter\Database\MySQLi 0r Postgre\Connection' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQLi 0r Postg...', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\Database\Config.php(86): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\app\Controllers\Home.php(15): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-29 04:54:33 --> Class 'App\Controllers\MyModel' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 04:54:46 --> Class 'App\Controllers\MyModel' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 04:56:00 --> Class 'App\Controllers\MyModel' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 04:56:17 --> Class 'App\Controllers\MyModel' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 04:56:44 --> Class 'App\Controllers\MyModel' not found
+#0 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Codeidniter_4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeidniter_4.1.3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-29 09:35:41 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\StoreManagement\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\StoreManagement\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\StoreManagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 09:37:32 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\StoreManagement\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\StoreManagement\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\StoreManagement\app\Controllers\Home.php(21): view('index')
+#3 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\StoreManagement\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\StoreManagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
